@@ -1,0 +1,40 @@
+{
+  "name": "巧克力铸造",
+  "category": "tfc:tfcchannelcasting",
+  "icon": "tfcchannelcasting:food/milk_chocolate_heart",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "下列内容仅在Firmalife附属安装时有效。$(thing)巧克力$()不再仅仅是巧克力棒！在$(thing)小缸$()或是$(thing)坩埚$()钟融化$(thing)白巧克力$()，$(thing)牛奶巧克力$()或是$(thing)黑巧克力$()，随后将其浇铸到模具中以获得巧克力糖果。一共有三种巧克力糖果：$(thing)心形的$()，$(thing)钟形的$()还有$(thing)小刀形的$()。每种都是通过浇筑巧克力到不同的模具中获得的。"
+    },
+    {
+      "type": "tfc:knapping_recipe",
+      "recipe": "tfcchannelcasting:clay_knapping/unfired_heart_mold",
+      "text": "通过敲击制作一个$(thing)心形模具$()，用来制作$(thing)心$()形巧克力。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "巧克力糖果提供与巧克力棒相同的营养，但它们吃起来的速度更快。不过，如果这些糖果是在一年中的特定时间制作的，它们将获得营养翻倍的特性。$(thing)心形巧克力$()在二月份制作会获得 $(thing)浪漫$()的属性，$(thing)钟形巧克力$()在十二月份制作会获得$(thing)节日$()的属性，还有$(thing)小刀形巧克力$()在十月份制作将获得$(thing)吓人$()的属性。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "还有，糖果也可以被一些东西$(thing)填充$()以获得额外的益处。填充了$(thing)果酱$()的糖果将获得额外的$(thing)水果$()营养值。填充了$(thing)酒精$()的糖果提供有益的药水效果。"
+    },
+    {
+      "type": "tfc:sealed_barrel_recipe",
+      "recipe": "tfcchannelcasting:barrel/fill_with_sweet_liquor",
+      "text": "食用被$(thing)甜酒$()填充的巧克力将获得速度属性。"
+    },
+    {
+      "type": "tfc:sealed_barrel_recipe",
+      "recipe": "tfcchannelcasting:barrel/fill_with_strong_liquor",
+      "text": "食用被$(thing)烈酒$()填充的巧克力将获得伤害抵抗属性。"
+    },
+    {
+      "type": "tfc:sealed_barrel_recipe",
+      "recipe": "tfcchannelcasting:barrel/fill_with_whiskey",
+      "text": "食用被$(thing)威士忌$()填充的巧克力将获得急迫属性。"
+    }
+  ],
+  "read_by_default": true
+}

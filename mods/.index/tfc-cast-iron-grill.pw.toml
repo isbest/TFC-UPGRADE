@@ -1,0 +1,16 @@
+filename = 'CastIronGrill-1.20.1-2.3.jar'
+name = 'TFC Cast Iron Grill'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ebbdb0ba6b7d3b476c68defe81b303890c0ec68b96c0fc145ace26151c4029b9da850b8d0ae63f1db349618c56c0ba92c90bb326b7fe4dfa4a676fa4d1b05930'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/AzzNDuCn/versions/ZIOS4oyW/CastIronGrill-1.20.1-2.3.jar'
+
+[update.modrinth]
+mod-id = 'AzzNDuCn'
+version = 'ZIOS4oyW'

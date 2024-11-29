@@ -1,0 +1,48 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "tfc:field_guide": {
+      "viewedEntries": [
+        "tfc:firmalife/wine",
+        "tfc:firmalife/herbs_and_spices",
+        "tfc:tfc_ie_changes/multiblocks",
+        "tfc:tfc_ie_changes/alloys",
+        "tfc:tfc_ie_changes/blueprint",
+        "tfc:tfc_ie_changes/quartz",
+        "tfc:tfc_ie_changes/mold",
+        "tfc:firmalife/fruit_trees",
+        "tfc:tfc_ie_changes/ores",
+        "tfc:tfc_ie_changes/external_heater",
+        "tfc:tfc_ie_changes/drill",
+        "tfc:tfc_ie_changes/herbicide",
+        "tfc:tfc_ie_changes/steel_obtain",
+        "tfc:tfc_ie_changes/graphite",
+        "tfc:tfc_ie_changes/jute",
+        "tfc:tfc_ie_changes/chemicals",
+        "tfc:castirongrill/castirongrill",
+        "tfc:tfcchannelcasting/casting_chocolate",
+        "tfc:tfcchannelcasting/channel_casting",
+        "tfc:getting_started/primitive_alloys",
+        "tfc:firmaciv/canoe",
+        "tfc:firmaciv/watercraft",
+        "tfc:firmaciv/navigation",
+        "tfc:firmaciv/cannon",
+        "tfc:firmaciv/sloop",
+        "tfc:firmaciv/rowboat",
+        "tfc:firmaciv/kayak"
+      ],
+      "bookmarks": [
+        {
+          "entry": "tfc:getting_started/primitive_alloys",
+          "page": 1
+        },
+        {
+          "entry": "tfc:firmalife/wine",
+          "page": 1
+        }
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

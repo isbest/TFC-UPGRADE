@@ -1,0 +1,36 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "水壶配方",
+  "category": "tfc:waterflasks",
+  "icon": "waterflasks:leather_flask",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "水壶有两个种类。$(br)皮革水壶可容纳5杯水，并可使用100次.$(br)铁质水壶可容纳20杯水，并可使用400次。$(br2)两种水壶都是可以被修补的."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "waterflasks:crafting/leather_flask",
+      "recipe2": "waterflasks:crafting/iron_flask"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "waterflasks:crafting/repair_leather",
+      "recipe2": "waterflasks:crafting/repair_iron",
+      "title": "修补配方"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "waterflasks:crafting/repair_broken_leather",
+      "recipe2": "waterflasks:crafting/repair_broken_iron",
+      "title": "翻新配方",
+      "text": "水壶完全损坏时也可以被修复。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 1,
+  "extra_recipe_mappings": {
+    "waterflasks:leather_flask": 1,
+    "waterflasks:iron_flask": 1
+  }
+}

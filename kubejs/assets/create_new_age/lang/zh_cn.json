@@ -1,0 +1,15 @@
+{
+    "item.create_new_age.glowstone_electrolyte_bucket": "萤石电解液桶",
+    "fluid.create_new_age.glowstone_electrolyte": "萤石电解液",
+    "create.tooltip.create_new_age.attention": "注意！",
+    "create.tooltip.create_new_age.battery_issue": "电池控制器必须位于充满电解液的流体箱顶部。",
+    "create_new_age.ponder.generation.text_7": "注意：发电线圈只生成电力，不生成转动。",
+    "create.tooltip.create_new_age.stress_limit_multiplier": "压力容量倍数",
+    "create.tooltip.create_new_age.additional_capacity": "额外容量",
+    "create.new_age.motor.stress_multiplier": "压力容量倍数",
+    "block.create_new_age.basic_motor_extension": "基础电机扩展",
+    "block.create_new_age.advanced_motor_extension": "强化电机扩展",
+    "item.create_new_age.copper_circuit": "铜电路板",
+    "item.create_new_age.blank_circuit": "空白电路板",
+    "tooltip.create_new_age.motor_extension": "放置在电机后方"
+}

@@ -1,0 +1,16 @@
+filename = 'barrels_2012-2.1.jar'
+name = 'Barrels 2012'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b8e7072893dcb62d4382103894f47effd7e80585fee066dcc0e0ee2fae45a458a54d0d3f1893a9367e745f0adcd5602b794b28100976554881022e81d69202e0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/hnvFIZaX/versions/moK5fhSI/barrels_2012-2.1.jar'
+
+[update.modrinth]
+mod-id = 'hnvFIZaX'
+version = 'moK5fhSI'

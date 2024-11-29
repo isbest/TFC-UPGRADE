@@ -1,0 +1,9 @@
+{
+    "item.tfc_knapsacks.sack": "皮革袋",
+    "item.tfc_knapsacks.leather_strip": "皮革条",
+    "item.tfc_knapsacks.knapsack": "皮革口袋",
+    "gui.tfc_knapsacks.backpack_inventory.label_knapsack": "背包",
+    "item.tfc_knapsacks.backpack": "皮革背包",
+    "gui.tfc_knapsacks.large_backpack_inventory.label_knapsack": "大背包"
+  }
+  

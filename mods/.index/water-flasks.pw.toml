@@ -1,0 +1,16 @@
+filename = 'waterflasks-3.0.5.jar'
+name = 'Water Flasks'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8b2940c880ef8dedf31afef30b183519c16884c3e7bb3b1436fba366ed5f47a62ebc39acea550fcf12e02bcc57bcb64f98f1f0d309a4f2891394c28d6047dbb2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ONgsGaM9/versions/C6LQYEfr/waterflasks-3.0.5.jar'
+
+[update.modrinth]
+mod-id = 'ONgsGaM9'
+version = 'C6LQYEfr'

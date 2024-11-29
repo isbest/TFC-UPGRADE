@@ -1,0 +1,36 @@
+{
+  "name": "铸铁烤架",
+  "category": "tfc:castirongrill",
+  "icon": "castirongrill:cast_iron_grill",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " $(thing)铸铁烤架$() 是 $(l:tfc:mechanics/grill)熟铁烤架的铸铁版本$().$(br2)他们唯一的区别是 $(thing)铸铁烤架$() 一次仅能烤制 $(item)两个$() 物品而不是五个。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "X": "castirongrill:cast_iron_grill_firepit"
+        }
+      },
+      "name": "Cast Iron Grill",
+      "text": "",
+      "enable_visualize": false
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 1,
+  "extra_recipe_mappings": {
+    "castirongrill:cast_iron_grill": 0,
+    "castirongrill:cast_iron_grill_firepit": 0
+  }
+}

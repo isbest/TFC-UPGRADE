@@ -1,0 +1,34 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "制瓶材料",
+  "category": "tfc:waterflasks",
+  "icon": "waterflasks:bladder",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "有效率的储存水分的关键是重新利用之前存过水的东西.$(br2)$(bold)       膀胱!$()$(br)只有某些动物的膀胱可以用于此目的，而某些物种的膀胱比其他物种的更容易提取。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br)$(bold)动物____________几率$(br)$()羊___________________10%$(br)羊驼__________________10%$(br)山羊____________________10%$(br)鹿____________________10%$(br)马类_________________20%$(br)熊___________________20%$(br)牛_________________50%$(br)驼鹿___________________50%$(br)$(br)要增加成功几率，请使用更高伤害的武器去屠宰动物。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "waterflasks:leather_side",
+      "title": "Leather Flask Side",
+      "link_recipes": false,
+      "text": "水壶侧边在两种不同的水壶配方中都需要用到。"
+    },
+    {
+      "type": "tfc:knapping_recipe",
+      "recipe": "waterflasks:leather_knapping/leather_side",
+      "text": "皮革水壶的侧边是用皮革做成的，以保护膀胱不被刺穿。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 0,
+  "extra_recipe_mappings": {
+    "waterflasks:bladder": 0,
+    "waterflasks:leather_side": 2
+  }
+}

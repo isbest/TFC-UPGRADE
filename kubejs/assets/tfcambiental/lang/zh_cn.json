@@ -1,0 +1,46 @@
+{
+  "death.attack.frostbite": "%1$s 冻死了。",
+  "death.attack.heatstroke": "%1$s 死于中暑。",
+
+  "effect.tfcambiental.cool.name": "降温",
+  "effect.tfcambiental.warm.name": "升温",
+
+  "item.tfcambiental.straw_hat": "草帽",
+  "item.tfcambiental.leather_apron": "皮革围裙",
+
+  "item.tfcambiental.wool_hat": "羊毛帽",
+  "item.tfcambiental.wool_sweater": "羊毛毛衣",
+  "item.tfcambiental.wool_pants": "羊毛长裤",
+  "item.tfcambiental.wool_boots": "羊毛靴",
+
+  "item.tfcambiental.silk_cowl": "丝绸罩",
+  "item.tfcambiental.silk_shirt": "丝绸衬衫",
+  "item.tfcambiental.silk_pants": "丝绸长裤",
+  "item.tfcambiental.silk_shoes": "丝绸鞋",
+
+  "item.tfcambiental.burlap_cowl": "粗麻布罩",
+  "item.tfcambiental.burlap_shirt": "粗麻布衬衫",
+  "item.tfcambiental.burlap_pants": "粗麻布长裤",
+  "item.tfcambiental.burlap_shoes": "粗麻布鞋",
+
+  "item.tfcambiental.insulated_leather_hat": "隔热皮革帽",
+  "item.tfcambiental.insulated_leather_tunic": "隔热皮革外套",
+  "item.tfcambiental.insulated_leather_pants": "隔热皮革长裤",
+  "item.tfcambiental.insulated_leather_boots": "隔热皮靴",
+
+  "tfcambiental.tooltip.warmth": "温暖: %s",
+  "tfcambiental.tooltip.insulation": "隔热: %s",
+  "tfcambiental.tooltip.sun_protection": "保护自己免受阳光直射",
+
+  "curios.identifier.clothes_hat": "衣服（头）",
+  "curios.identifier.clothes_torso": "衣服（躯干）",
+  "curios.identifier.clothes_pants": "衣服（腿）",
+  "curios.identifier.clothes_socks": "衣服（脚）",
+
+  "item.tfcambiental.house_tester": "房屋测试器",
+  "tfcambiental.house_tester.description": "右键点击以检查当前位置是否被视为室内或室外",
+  "tfcambiental.message.is_inside": "你在室内",
+  "tfcambiental.message.is_inside_alt": "你的外表在室内",
+  "tfcambiental.message.is_outside": "你在室外",
+  "tfcambiental.message.is_outside_alt": "你的内心在室外"
+}

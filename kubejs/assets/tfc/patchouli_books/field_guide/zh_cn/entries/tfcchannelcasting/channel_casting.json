@@ -1,0 +1,39 @@
+{
+    "name": "铸造输送管道",
+    "category": "tfc:tfcchannelcasting",
+    "icon": "tfcchannelcasting:channel",
+    "pages": [
+      {
+        "type": "patchouli:text",
+        "text": "使用$(thing)铸造输送管道$()与$(thing)模具桌$()，你可以使用$(thing)坩埚$()一次性铸造一个以上的模具。只需简单的使用$(thing)输送管道$()将$(thing)模具桌$()连接到$(thing)坩埚$()上，随后对着与$(thing)坩埚$()相邻的$(thing)输送管道$()右键。使用一个$(l:getting_started/pottery#mold)模具$()SHIFT+右键$(thing)模具桌$()以放置或者移除模具。"
+      },
+      {
+        "type": "tfc:knapping_recipe",
+        "recipe": "tfcchannelcasting:fire_clay_knapping/unfired_channel_4",
+        "text": "敲击制成数个$(thing)未烧制的铸造输送管道$()."
+      },
+      {
+        "type": "tfc:knapping_recipe",
+        "recipe": "tfcchannelcasting:fire_clay_knapping/unfired_mold_table",
+        "text": "敲击制成一个$(thing)未烧制的模具桌$()."
+      },
+      {
+        "type": "tfc:heat_recipe",
+        "recipe": "tfcchannelcasting:heating/channel",
+        "text": "在敲击制成铸造输送管道与模具桌后，它们需要被$(thing)烧制$()，像任何陶器一样。"
+      },
+      {
+        "type": "patchouli:multiblock",
+        "multiblock_id": "tfcchannelcasting:example",
+        "name": "一个铸造装置",
+        "text": "",
+        "enable_visualize": false
+      },
+      {
+        "type": "patchouli:text",
+        "text": "$(li)对着$(thing)模具桌$()使用风箱可以更快的冷却金属。$()$(li)通过红石脉冲激活一个$(thing)铸造输送管道$()将开始浇筑金属。$()$(li)$(thing)模具桌$()会输出一个比较器信号。",
+        "title": "自动化"
+      }
+    ],
+    "read_by_default": true
+  }

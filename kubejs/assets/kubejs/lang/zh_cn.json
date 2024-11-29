@@ -1,0 +1,13 @@
+{
+    "kubejs.tooltips.firmaciv.sextant": "用来测量维度",
+    "kubejs.tooltips.firmaciv.nav_clock": "用来测量经度",
+    "kubejs.tooltips.firmaciv.barometer": "用来海拔",
+    "kubejs.tooltips.farmersdelight.basket": "漏斗的平替!",
+    "kubejs.tooltips.createlowheated.basic_burner": "烈焰人燃烧室的平替,当侧面有至少32速的鼓风机时即可超级加热!",
+    "kubejs.tooltips.minecraft.torch": "通过杂酚油合成,永不熄灭",
+    "kubejs.tooltips.minecraft.barrel": "作者的仁慈,给你一种机械动力能识别,且能装木头的容器",
+    "kubejs.tooltips.tfc_knapsacks.backpack": "相比于精妙背包是比较鸡肋啦~",
+    "kubejs.tooltips.tfcambiental.house_tester": "在室内您可以不受温度影响",
+    "kubejs.tooltips.tfc_hammer_time.excavator": "挖掘3x3范围内的泥土",
+    "kubejs.tooltips.tfc_hammer_time.sledgehammer": "挖掘3想范围内的石头"
+}

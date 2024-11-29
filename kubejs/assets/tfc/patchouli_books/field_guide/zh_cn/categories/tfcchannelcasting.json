@@ -1,0 +1,6 @@
+{
+  "name": "铸造输送管道附属",
+  "description": "允许玩家将金属从坩埚浇铸到多个模具中。",
+  "icon": "tfcchannelcasting:channel",
+  "sortnum": 60
+}

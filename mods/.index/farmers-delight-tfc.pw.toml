@@ -1,0 +1,16 @@
+filename = 'FarmersDelightTFC-1.0.5-forge-1.20.1.jar'
+name = "Farmer's Delight TFC"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ce227cd393d769b8db1d34d49e8ddde06e83b8273fb12a863328b78adb56f95d65440a96a083bf3924a363b6687bc6c6dad94fcb45dcf4729a2eefb97aa994f3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/WXhDTEXL/versions/PxrdK8Dj/FarmersDelightTFC-1.0.5-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'WXhDTEXL'
+version = 'PxrdK8Dj'

@@ -1,0 +1,16 @@
+filename = 'TFC-IE-Crossover-1.20.1-1.2.1.jar'
+name = 'TFC + IE Crossover'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '6228f8001d5a998e1baa8b18cc9e3dbeb61d5d38dad98c87d75f15ea76b78acf11f2206388f052cf44aaa343967889f3f179ca409076abb88578eaa590bcd555'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/IsYwQTKM/versions/yNtV8HAc/TFC-IE-Crossover-1.20.1-1.2.1.jar'
+
+[update.modrinth]
+mod-id = 'IsYwQTKM'
+version = 'yNtV8HAc'
