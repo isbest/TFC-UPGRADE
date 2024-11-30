@@ -27,10 +27,16 @@ ServerEvents.recipes(event => {
 
 
     const { firmalife } = event.recipes
+
     // 干燥海带
-    firmalife.drying('minecraft:dried_kelp', 'tfc:plant/leafy_kelp').id('firmalife:dried_kelp/leafy_kelp')
-    firmalife.drying('minecraft:dried_kelp', 'tfc:plant/winged_kelp').id('firmalife:dried_kelp/winged_kelp')
-    firmalife.drying('minecraft:dried_kelp', 'tfc:plant/giant_kelp_flower').id('firmalife:dried_kelp/giant_kelp_flower')
+    firmalife.drying('tfc:food/dried_kelp', 'tfc:plant/leafy_kelp').id('firmalife:dried_kelp/leafy_kelp')
+    firmalife.drying('tfc:food/dried_kelp', 'tfc:plant/winged_kelp').id('firmalife:dried_kelp/winged_kelp')
+    firmalife.drying('tfc:food/dried_kelp', 'tfc:plant/giant_kelp_flower').id('firmalife:dried_kelp/giant_kelp_flower')
+
+    event.replaceInput({ input: 'minecraft:dried_kelp' }, 'minecraft:dried_kelp', 'tfc:food/dried_kelp')
+
+    // 海带块
+    // event.shaped('minecraft:dried_kelp_block', ['AAA', 'AAA', 'AAA'], { "A": 'tfc:food/dried_kelp' }).id("minecraft:dried_kelp_block")
 
     // 纸浆
     // ['minecraft:bamboo', 'immersiveengineering:dust_wood', 'tfc:jute_fiber']

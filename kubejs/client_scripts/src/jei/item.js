@@ -1729,6 +1729,9 @@ const DISABLE_ITEM = [
     "minecraft:mud_brick_wall",
     "minecraft:magma_block",
     "create:small_diorite_brick_wall",
+    "immersiveengineering:plantoil_bucket",
+    "immersiveengineering:biodiesel_bucket",
+    "immersiveengineering:ethanol_bucket",
 ]
 
 
@@ -1774,7 +1777,11 @@ const DISABLE_FLUID = [
     "immersiveengineering:potion",
     'create:chocolate',
     'create:honey',
-    'sophisticatedcore:xp_still'
+    'sophisticatedcore:xp_still',
+    // ie oil 
+    'immersiveengineering:plantoil',
+    'immersiveengineering:biodiesel',
+    'immersiveengineering:ethanol',
 ]
 
 JEIEvents.hideFluids(event => {

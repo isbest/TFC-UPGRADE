@@ -20,13 +20,6 @@ ServerEvents.recipes(event => {
         '#kubejs:chain'
     )
 
-    // 植物油
-    event.replaceInput(
-        { id: 'createdieselgenerators:compacting/plant_oil' },
-        '#forge:seeds',
-        '#tfc:seeds'
-    )
-
     // 木屑块
     event.replaceInput(
         { id: 'createdieselgenerators:crafting/chip_wood_block' },

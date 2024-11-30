@@ -8,12 +8,14 @@ const GEM_POLISHING = [
     { input: 'tfc:ore/emerald', output: 'tfc:gem/emerald' },
     { input: 'tfc:ore/lapis_lazuli', output: 'tfc:gem/lapis_lazuli' },
     { input: 'tfc:ore/opal', output: 'tfc:gem/opal' },
-    { input: 'tfc:ore/pyrite', output: 'tfc:gem/pyrite' }
+    { input: 'tfc:ore/pyrite', output: 'tfc:gem/pyrite' },
+    // 玻璃磨制
+    { input: 'minecraft:glass', output: 'tfc:empty_jar' }
 ]
 
 ServerEvents.recipes(event => {
-    // const { createmetallurgy } = 
     GEM_POLISHING.forEach(item => {
-        event.recipes.create.sandpaper_polishing(item.output, item.input)
+        let id = "kubejs:polishing/" + item.output.replace(/:|\//g, '_') + "_" + item.input.replace(/:|\//g, '_');
+        event.recipes.create.sandpaper_polishing(item.output, item.input).id(id)
     })
 })

@@ -1411,24 +1411,6 @@ const MISC = [
     "createmetallurgy:molten_copper_bucket",
     "createmetallurgy:molten_gold_bucket",
     "createmetallurgy:molten_iron_bucket",
-    "createmetallurgy:molten_netherite",
-    "createmetallurgy:molten_aluminum",
-    "createmetallurgy:molten_lead",
-    "createmetallurgy:molten_nickel",
-    "createmetallurgy:molten_osmium",
-    "createmetallurgy:molten_silver",
-    "createmetallurgy:molten_tin",
-    "createmetallurgy:molten_invar",
-    "createmetallurgy:molten_electrum",
-    "createmetallurgy:molten_bronze",
-    "createmetallurgy:molten_constantan",
-    "createmetallurgy:molten_steel",
-    "createmetallurgy:molten_tungsten",
-    "createmetallurgy:molten_brass",
-    "createmetallurgy:molten_zinc",
-    "createmetallurgy:molten_copper",
-    "createmetallurgy:molten_gold",
-    "createmetallurgy:molten_iron",
     "create_connected:bamboo_window_pane",
     "create_connected:cherry_window_pane",
     "create_connected:bamboo_window",
@@ -1648,6 +1630,9 @@ const MISC = [
     "minecraft:mud_brick_wall",
     "minecraft:magma_block",
     "create:small_diorite_brick_wall",
+    "immersiveengineering:plantoil_bucket",
+    "immersiveengineering:biodiesel_bucket",
+    "immersiveengineering:ethanol_bucket",
 ]
 
 ServerEvents.tags('item', event => {
@@ -1664,6 +1649,43 @@ ServerEvents.tags('item', event => {
     event.removeAllTagsFrom(CHEST_BOAT)
     event.removeAllTagsFrom(MISC)
     event.removeAllTagsFrom(PLANKS)
+})
+
+const DISABLE_FLUID = [
+    "createmetallurgy:molten_netherite",
+    "createmetallurgy:molten_aluminum",
+    "createmetallurgy:molten_lead",
+    "createmetallurgy:molten_nickel",
+    "createmetallurgy:molten_osmium",
+    "createmetallurgy:molten_silver",
+    "createmetallurgy:molten_tin",
+    "createmetallurgy:molten_invar",
+    "createmetallurgy:molten_electrum",
+    "createmetallurgy:molten_bronze",
+    "createmetallurgy:molten_constantan",
+    "createmetallurgy:molten_steel",
+    "createmetallurgy:molten_tungsten",
+    "createmetallurgy:molten_brass",
+    "createmetallurgy:molten_zinc",
+    "createmetallurgy:molten_copper",
+    "createmetallurgy:molten_gold",
+    "createmetallurgy:molten_iron",
+    "createmetallurgy:molten_void_steel",
+    // potion
+    "immersiveengineering:potion",
+    // create
+    'create:chocolate',
+    'create:honey',
+    // xp
+    'sophisticatedcore:xp_still',
+    // ie oil 
+    'immersiveengineering:plantoil',
+    'immersiveengineering:biodiesel',
+    'immersiveengineering:ethanol',
+]
+
+ServerEvents.tags('fluid', event => {
+    event.removeAllTagsFrom(DISABLE_FLUID)
 })
 
 ServerEvents.recipes(event => {

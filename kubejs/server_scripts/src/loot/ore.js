@@ -148,6 +148,7 @@ ServerEvents.blockLootTables(event => {
         })
     })
 
+    // tfc ore
     ORE_ROCK.forEach(rock => {
         ORE_TYPE.forEach(ore => {
             let raw_ore = `tfc:ore/${ore.block}/${rock}`
@@ -168,6 +169,28 @@ ServerEvents.blockLootTables(event => {
                             }
                         ]
                     })
+                })
+            })
+        })
+    })
+
+    // tfc rock
+    ORE_ROCK.forEach(item => {
+        event.addBlock(`tfc:rock/raw/${item}`, table => {
+            table.addPool(pool => {
+                pool.addEntry({
+                    type: 'minecraft:item',
+                    name: `tfc:rock/loose/${item}`,
+                    functions: [
+                        {
+                            function: 'minecraft:apply_bonus',
+                            enchantment: 'minecraft:fortune',
+                            formula: 'minecraft:ore_drops'
+                        },
+                        {
+                            function: 'minecraft:explosion_decay'
+                        }
+                    ]
                 })
             })
         })

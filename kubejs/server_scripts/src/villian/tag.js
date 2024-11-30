@@ -142,29 +142,9 @@ ServerEvents.tags('item', event => {
 
     // 黑曜石
     event.add('forge:obsidian', ['minecraft:obsidian'])
-
-    // // 闪长岩/安山岩 也是天然石头了 人造天然.jpg
-    // event.add('tfc:rock/raw', ['minecraft:andesite', 'minecraft:diorite'])
-
-    // FC bug?
-    // event.add(
-    //     'forge:tools',
-    //     [
-    //         "tfc:stone/knife/black_bronze ",
-    //         "tfc:stone/knife/bronze ",
-    //         "tfc:stone/knife/copper ",
-    //         "tfc:stone/knife/wrought_iron ",
-    //         "tfc:stone/knife/steel ",
-    //         "tfc:stone/knife/black_steel ",
-    //         "tfc:stone/knife/blue_steel ",
-    //         "tfc:stone/knife/red_steel "
-    //     ]
-    // )
 })
 
 ServerEvents.tags('fluid', event => {
     // 给纸浆添加tfc:usable_in_barrel标签
     event.add('tfc:usable_in_barrel', ['kubejs:pulp'])
-    // 植物燃油标签
-    event.add('kubeks:plant_oil', ['immersiveengineering:plantoil', 'createdieselgenerators:plant_oil'])
 })
