@@ -82,15 +82,6 @@ ServerEvents.recipes(event => {
         .loops(3)
         .id('create_connected:sequenced_assembly/control_chip')
 
-
-    // 刷铁机
-    create.splashing([
-        Item.of('minecraft:flint').withChance(0.2),
-        Item.of('tfcorewashing:chunks_limonite').withChance(0.2)
-    ],
-        'minecraft:gravel'
-    ).id('create:splashing/gravel')
-
     // 洗岩浆块
     create.splashing('minecraft:obsidian', '#kubejs:magma_block').id('create:splashing/magma_block')
 })

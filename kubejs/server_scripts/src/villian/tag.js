@@ -143,8 +143,8 @@ ServerEvents.tags('item', event => {
     // 黑曜石
     event.add('forge:obsidian', ['minecraft:obsidian'])
 
-    // 闪长岩/安山岩 也是天然石头了 人造天然.jpg
-    event.add('tfc:rock/raw', ['minecraft:andesite', 'minecraft:diorite'])
+    // // 闪长岩/安山岩 也是天然石头了 人造天然.jpg
+    // event.add('tfc:rock/raw', ['minecraft:andesite', 'minecraft:diorite'])
 
     // FC bug?
     // event.add(

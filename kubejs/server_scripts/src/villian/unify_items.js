@@ -48,14 +48,14 @@ ServerEvents.recipes(event => {
     event.replaceInput({ input: 'minecraft:emerald' }, 'minecraft:emerald', 'tfc:gem/emerald')
     // 石头兼容
     // event.replaceInput({ input: "#forge:stone" }, "#forge:stone", '#tfc:rock/raw')
-    event.replaceInput(
-        [
-            { id: 'create:crafting/materials/andesite_alloy_from_zinc' },
-            { id: 'create:crafting/materials/andesite_alloy' }
-        ],
-        '#tfc:rock/raw',
-        'minecraft:andesite'
-    )
+    // event.replaceInput(
+    //     [
+    //         { id: 'create:crafting/materials/andesite_alloy_from_zinc' },
+    //         { id: 'create:crafting/materials/andesite_alloy' }
+    //     ],
+    //     '#tfc:rock/raw',
+    //     'minecraft:andesite'
+    // )
     // 铜块兼容
     event.replaceInput({ input: '#forge:storage_blocks/copper' }, '#forge:storage_blocks/copper', 'tfc:metal/block/copper')
     // 铜锭统一
