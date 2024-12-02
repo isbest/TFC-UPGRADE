@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "20215D22F6A90DB4", title: "群峦传说" }
+		{ id: "675645D3F5598DBE", title: "机械动力" }
+		{ id: "118B82FF91EBC0AC", title: "沉浸工程" }
+	]
+}

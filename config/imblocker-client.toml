@@ -8,7 +8,7 @@ screenWhitelist = ["net.minecraft.client.gui.screens.inventory.BookEditScreen", 
 #Matched input box would disable your IME
 inputBlacklist = []
 #Matched input box would enable your IME
-inputWhitelist = []
+inputWhitelist = ["ftblibrary:dev.ftb.mods.ftblibrary.ui.ScreenWrapper"]
 #Do we output recoveredScreens? because it may cause lag
 enableScreenRecovering = false
 #Here lists all Screens that is not in whitelist nor blacklist, 

@@ -30,7 +30,10 @@
         "tfc:firmaciv/cannon",
         "tfc:firmaciv/sloop",
         "tfc:firmaciv/rowboat",
-        "tfc:firmaciv/kayak"
+        "tfc:firmaciv/kayak",
+        "tfc:firmalife/wine_consumption",
+        "tfc:mechanics/crops",
+        "tfc:firmalife/more_fertilizer"
       ],
       "bookmarks": [
         {

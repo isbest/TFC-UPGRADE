@@ -11,7 +11,7 @@
   "particle_settings": {
     "particles": true,
     "rain_splash": true,
-    "block_break": true,
+    "block_break": false,
     "block_breaking": true,
     "other": {}
   },
