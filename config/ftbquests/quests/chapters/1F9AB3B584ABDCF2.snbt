@@ -964,6 +964,55 @@
 			x: 6.5d
 			y: -3.0d
 		}
+		{
+			description: ["新手奖励"]
+			id: "774F7CC13A78858A"
+			rewards: [
+				{
+					id: "409E25F17506204C"
+					item: {
+						Count: 1
+						id: "sophisticatedbackpacks:backpack"
+						tag: {
+							contentsUuid: [I;
+								1581869957
+								39341456
+								-2084946484
+								755911398
+							]
+							inventorySlots: 27
+							renderInfo: {
+								upgradeItems: [{
+									Count: 1b
+									id: "minecraft:air"
+								}]
+							}
+							upgradeSlots: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02E835935D3FA071"
+					item: {
+						Count: 1
+						id: "tfccanes:walking_cane"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "266E1B927C70A5FA"
+				title: "确认"
+				type: "checkmark"
+			}]
+			title: "新手奖励"
+			x: -5.5d
+			y: -3.0d
+		}
 	]
 	title: "铜器时代"
 }
