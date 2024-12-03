@@ -228,7 +228,8 @@ const DISABLE_VIALLIAN_RECIPES = [
     'farmersdelight:cooking/cabbage_rolls',
     // 炒菜 蘑菇
     'cuisinedelight:fried_mushroom',
-    'create:milling/andesite'
+    'create:milling/andesite',
+    'farmersdelight:lead_from_straw'
 ]
 
 const DISABLE_OUTPUT_ITEM = [

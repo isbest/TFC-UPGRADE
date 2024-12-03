@@ -69,12 +69,22 @@
 				"51318C89A09144F8"
 				"4081BD8EDC8C6960"
 			]
+			icon: "tfc:stone/knife_head/igneous_extrusive"
 			id: "59D14EAC0A25FCE6"
 			tasks: [{
 				id: "1C6303237FCBB7D3"
-				item: "tfc:stone/knife_head/igneous_extrusive"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:knife_head"
+					}
+				}
+				optional_task: true
+				title: "Any #kubejs:knife_head"
 				type: "item"
 			}]
+			title: "石刀刃"
 			x: -1.5d
 			y: -4.5d
 		}
@@ -83,12 +93,21 @@
 				"51318C89A09144F8"
 				"4081BD8EDC8C6960"
 			]
+			icon: "tfc:stone/axe_head/igneous_extrusive"
 			id: "0A7CA75D71F7C986"
 			tasks: [{
-				id: "60796440FD68FCC6"
-				item: "tfc:stone/axe_head/igneous_extrusive"
+				id: "792FA43366CFCE10"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:axe_head"
+					}
+				}
+				title: "Any #kubejs:axe_head"
 				type: "item"
 			}]
+			title: "石斧头"
 			x: -1.5d
 			y: -3.0d
 		}
@@ -97,12 +116,21 @@
 				"51318C89A09144F8"
 				"4081BD8EDC8C6960"
 			]
+			icon: "tfc:stone/shovel_head/igneous_extrusive"
 			id: "5BD4BA027576E9C3"
 			tasks: [{
-				id: "49CCCBA73581586E"
-				item: "tfc:stone/shovel_head/igneous_extrusive"
+				id: "00B934F311D5FC47"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:shovel_head"
+					}
+				}
+				title: "Any #kubejs:shovel_head"
 				type: "item"
 			}]
+			title: "石铲头"
 			x: -1.5d
 			y: -6.0d
 		}
@@ -110,16 +138,18 @@
 			dependencies: ["5BD4BA027576E9C3"]
 			id: "4EB6CB5FA49B3468"
 			tasks: [{
-				id: "1DF49E306AAE7DAB"
+				id: "7B6D13A77756E01A"
 				item: {
 					Count: 1
-					id: "tfc:stone/shovel/igneous_extrusive"
+					id: "itemfilters:tag"
 					tag: {
-						Damage: 0
+						value: "kubejs:shovel"
 					}
 				}
+				title: "Any #kubejs:shovel"
 				type: "item"
 			}]
+			title: "石铲"
 			x: 0.5d
 			y: -6.0d
 		}
@@ -127,33 +157,44 @@
 			dependencies: ["59D14EAC0A25FCE6"]
 			id: "1E5FFC01E1F03DF5"
 			tasks: [{
-				id: "32665D4DA71A430F"
+				id: "0BDEBFF4397B0396"
 				item: {
 					Count: 1
-					id: "tfc:stone/knife/igneous_extrusive"
+					id: "itemfilters:tag"
 					tag: {
-						Damage: 0
+						value: "kubejs:knife"
 					}
 				}
+				title: "Any #kubejs:knife"
 				type: "item"
 			}]
+			title: "石刀"
 			x: 0.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["0A7CA75D71F7C986"]
+			icon: {
+				Count: 1
+				id: "tfc:stone/axe/igneous_extrusive"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "061A2AE2F2BB0E41"
 			tasks: [{
-				id: "18315C635634233B"
+				id: "285D43A0F83AA1F4"
 				item: {
 					Count: 1
-					id: "tfc:stone/axe/igneous_extrusive"
+					id: "itemfilters:tag"
 					tag: {
-						Damage: 0
+						value: "kubejs:axe"
 					}
 				}
+				title: "Any #kubejs:axe"
 				type: "item"
 			}]
+			title: "石斧"
 			x: 0.5d
 			y: -3.0d
 		}

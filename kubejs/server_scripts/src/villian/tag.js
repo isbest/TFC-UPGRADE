@@ -142,6 +142,49 @@ ServerEvents.tags('item', event => {
 
     // 黑曜石
     event.add('forge:obsidian', ['minecraft:obsidian'])
+
+    // 胶水
+    event.add('forge:slimeballs', ['tfc:glue'])
+
+    // for quests
+    event.add('kubejs:shovel_head', [
+        "tfc:stone/shovel_head/igneous_extrusive",
+        "tfc:stone/shovel_head/igneous_intrusive",
+        "tfc:stone/shovel_head/metamorphic",
+        "tfc:stone/shovel_head/sedimentary"
+    ])
+    event.add('kubejs:shovel', [
+        "tfc:stone/shovel/igneous_extrusive",
+        "tfc:stone/shovel/igneous_intrusive",
+        "tfc:stone/shovel/sedimentary",
+        "tfc:stone/shovel/metamorphic"
+    ])
+
+    event.add('kubejs:axe_head', [
+        "tfc:stone/axe_head/sedimentary",
+        "tfc:stone/axe_head/metamorphic",
+        "tfc:stone/axe_head/igneous_extrusive",
+        "tfc:stone/axe_head/igneous_intrusive"
+    ])
+    event.add('kubejs:axe', [
+        "tfc:stone/axe/sedimentary",
+        "tfc:stone/axe/metamorphic",
+        "tfc:stone/axe/igneous_intrusive",
+        "tfc:stone/axe/igneous_extrusive"
+    ])
+
+    event.add('kubejs:knife_head', [
+        "tfc:stone/knife_head/igneous_extrusive",
+        "tfc:stone/knife_head/igneous_intrusive",
+        "tfc:stone/knife_head/metamorphic",
+        "tfc:stone/knife_head/sedimentary"
+    ])
+    event.add('kubejs:knife', [
+        "tfc:stone/knife/metamorphic",
+        "tfc:stone/knife/sedimentary",
+        "tfc:stone/knife/igneous_intrusive",
+        "tfc:stone/knife/igneous_extrusive"
+    ])
 })
 
 ServerEvents.tags('fluid', event => {
