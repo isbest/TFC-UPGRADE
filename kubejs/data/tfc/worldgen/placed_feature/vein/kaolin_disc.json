@@ -1,0 +1,10 @@
+{
+    "feature": "tfc:vein/kaolin_disc",
+    "placement": [
+        {
+            "type": "tfc:climate",
+            "min_temperature": 8,
+            "min_rainfall": 200
+        }
+    ]
+}
