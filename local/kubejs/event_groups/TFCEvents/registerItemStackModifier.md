@@ -20,10 +20,10 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | register | ResourceLocation, ModifierApplicator, boolean |  | void | ✘ |
-| simple | ResourceLocation, SimpleApplicator |  | void | ✘ |
 | getCraftingContainer |  |  | Supplier<CraftingContainer> | ✘ |
 | withInventory | ResourceLocation, WithInventoryApplicator |  | void | ✘ |
 | withInput | ResourceLocation, ModifierApplicator |  | void | ✘ |
+| simple | ResourceLocation, SimpleApplicator |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
@@ -43,16 +43,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ```
 Deprecated, please use `simple`, `withInput`, or `withInventory` to register a modifier instead. Creates a new item stack modifier with the given id and function
-```
-
-- `void simple(ResourceLocation id, SimpleApplicator applicator)`
-
-  Parameters:
-  - id: ResourceLocation- The registry name of the modifier
-  - applicator: SimpleApplicator- The function that will be applied to the stack when the modifier is called
-
-```
-Creates a new item stack modifier with the given id and function
 ```
 
 - `Supplier<CraftingContainer> getCraftingContainer()`
@@ -78,6 +68,16 @@ Creates a new item stack modifier with the given id and function. Depends on the
 
 ```
 Creates a new item stack modifier with the given id and function. Depends on the input item
+```
+
+- `void simple(ResourceLocation id, SimpleApplicator applicator)`
+
+  Parameters:
+  - id: ResourceLocation- The registry name of the modifier
+  - applicator: SimpleApplicator- The function that will be applied to the stack when the modifier is called
+
+```
+Creates a new item stack modifier with the given id and function
 ```
 
 - `Object exit(Object var0)`

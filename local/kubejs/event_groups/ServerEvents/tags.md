@@ -26,13 +26,13 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getElementIds |  |  | Set<ResourceLocation> | ✘ |
-| removeAllTagsFrom | Object[] |  | void | ✘ |
 | add | ResourceLocation, Object[] |  | TagWrapper | ✘ |
 | remove | ResourceLocation, Object[] |  | TagWrapper | ✘ |
 | get | ResourceLocation |  | TagWrapper | ✘ |
 | getType |  |  | ResourceLocation | ✘ |
 | removeAll | ResourceLocation |  | TagWrapper | ✘ |
+| removeAllTagsFrom | Object[] |  | void | ✘ |
+| getElementIds |  |  | Set<ResourceLocation> | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

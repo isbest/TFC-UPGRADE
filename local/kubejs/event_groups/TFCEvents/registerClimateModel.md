@@ -21,12 +21,12 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getDefaultCurrentTemperatureCallback |  |  | TemperatureCallback | ✘ |
 | getDefaultAverageTemperatureCallback |  |  | LevelPos2FloatCallback | ✘ |
+| registerClimateModel | ResourceLocation, Consumer<KubeJSClimateModel> |  | void | ✘ |
 | getDefaultAverageRainfallCallback |  |  | LevelPos2FloatCallback | ✘ |
+| registerAdvancedClimateModel | ResourceLocation, Consumer<AdvancedKubeJSClimateModel> |  | void | ✘ |
 | getDefaultAirFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
 | getDefaultWaterFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
 | getDefaultWindVectorCallback |  |  | WindVectorCallback | ✘ |
-| registerAdvancedClimateModel | ResourceLocation, Consumer<AdvancedKubeJSClimateModel> |  | void | ✘ |
-| registerClimateModel | ResourceLocation, Consumer<KubeJSClimateModel> |  | void | ✘ |
 | newVec2 | float, float |  | Vec2 | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
@@ -48,9 +48,29 @@ Returns the callback version of TFC's overworld current temperature calculation
 Returns the callback version of TFC's overworld average temperature calculation
 ```
 
+- `void registerClimateModel(ResourceLocation name, Consumer<KubeJSClimateModel> model)`
+
+  Parameters:
+  - name: ResourceLocation- The name of the climate model
+  - model: Consumer<KubeJSClimateModel>- A consumer for a KubeJSClimateModel
+
+```
+Creates a new climate model with the given name and properties
+```
+
 - `LevelPos2FloatCallback getDefaultAverageRainfallCallback()`
 ```
 Returns the callback version of TFC's average rainfall calculation
+```
+
+- `void registerAdvancedClimateModel(ResourceLocation name, Consumer<AdvancedKubeJSClimateModel> model)`
+
+  Parameters:
+  - name: ResourceLocation- The name of the climate model
+  - model: Consumer<AdvancedKubeJSClimateModel>- A consumer for an AdvancedKubeJSClimateModel, which has access to the onWorldLoad and onChunkLoad methods
+
+```
+Creates a new climate model with the given name and properties
 ```
 
 - `LevelPosLong2FloatCallback getDefaultAirFogCallback()`
@@ -66,26 +86,6 @@ Returns the callback version of TFC's water fog calculation
 - `WindVectorCallback getDefaultWindVectorCallback()`
 ```
 Returns the callback version of TFC's wind vector calculation
-```
-
-- `void registerAdvancedClimateModel(ResourceLocation name, Consumer<AdvancedKubeJSClimateModel> model)`
-
-  Parameters:
-  - name: ResourceLocation- The name of the climate model
-  - model: Consumer<AdvancedKubeJSClimateModel>- A consumer for an AdvancedKubeJSClimateModel, which has access to the onWorldLoad and onChunkLoad methods
-
-```
-Creates a new climate model with the given name and properties
-```
-
-- `void registerClimateModel(ResourceLocation name, Consumer<KubeJSClimateModel> model)`
-
-  Parameters:
-  - name: ResourceLocation- The name of the climate model
-  - model: Consumer<KubeJSClimateModel>- A consumer for a KubeJSClimateModel
-
-```
-Creates a new climate model with the given name and properties
 ```
 
 - `Vec2 newVec2(float x, float z)`

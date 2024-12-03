@@ -22,12 +22,12 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | invoke | StructureTemplate, ResourceLocation |  | void | ✔ |
 | getId |  |  | String | ✘ |
 | getEntities |  |  | EntityInfoWrapper | ✘ |
-| getPalettesSize |  |  | int | ✘ |
 | getStructureSize |  |  | Vec3i | ✘ |
-| removePalette | int |  | void | ✘ |
+| getPalettesSize |  |  | int | ✘ |
+| forEachPalettes | Consumer<PaletteWrapper> |  | void | ✘ |
 | getPalette | int |  | PaletteWrapper | ✘ |
 | getEntitiesSize |  |  | int | ✘ |
-| forEachPalettes | Consumer<PaletteWrapper> |  | void | ✘ |
+| removePalette | int |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

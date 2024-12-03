@@ -33,7 +33,10 @@
         "tfc:firmaciv/kayak",
         "tfc:firmalife/wine_consumption",
         "tfc:mechanics/crops",
-        "tfc:firmalife/more_fertilizer"
+        "tfc:firmalife/more_fertilizer",
+        "tfc:arborfirmacraft/tree_tapping",
+        "tfc:arborfirmacraft/making_syrups",
+        "tfc:arborfirmacraft/making_rubber"
       ],
       "bookmarks": [
         {

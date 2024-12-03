@@ -1732,6 +1732,19 @@ const DISABLE_ITEM = [
     "immersiveengineering:plantoil_bucket",
     "immersiveengineering:biodiesel_bucket",
     "immersiveengineering:ethanol_bucket",
+    "afc:wood/boat/eucalyptus",
+    "afc:wood/boat/baobab",
+    "afc:wood/boat/mahogany",
+    "afc:wood/boat/hevea",
+    "afc:wood/boat/tualang",
+    "afc:wood/boat/teak",
+    "afc:wood/boat/cypress",
+    "afc:wood/boat/fig",
+    "afc:wood/boat/ironwood",
+    "afc:wood/boat/ipe",
+    // 海带
+    'minecraft:dried_kelp',
+    'minecraft:dried_kelp_block',
 ]
 
 

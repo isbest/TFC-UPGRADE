@@ -1,0 +1,17 @@
+{
+	"name": "制作糖浆",
+	"category": "tfc:arborfirmacraft",
+	"icon": "afc:maple_sugar",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "一旦你收集到了一些桦树或枫树液，就可以着手浓缩到足够有用的程度了。要想做到这样，需要在陶锅里煮两次树液，第一次煮成浓缩树液，第二次煮成糖浆。别忘了把棍子放在锅里，否则锅永远不会沸腾。装在罐子里的糖浆可以制成固体糖用于烘焙。"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "生产一桶糖浆需要50桶枫树汁，或者100桶桦树汁。所以无论你想生产任何数量的糖浆，你都需要同时让多个锅一起沸腾。"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 2
+}

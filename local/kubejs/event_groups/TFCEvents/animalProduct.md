@@ -27,19 +27,19 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getBlock |  |  | BlockContainerJS | ✘ |
 | getLevel |  |  | Level | ✘ |
-| getPlayer |  |  | Player | ✘ |
+| getTool |  |  | ItemStack | ✘ |
+| setFluidProduct | FluidStackJS |  | void | ✘ |
+| isItemProduct |  |  | boolean | ✘ |
+| setItemProduct | ItemStack |  | void | ✘ |
+| getItemProduct |  |  | ItemStack | ✘ |
+| getAnimal |  |  | Entity | ✘ |
+| getFluidProduct |  |  | FluidStackJS | ✘ |
 | getUses |  |  | int | ✘ |
 | setUses | int |  | void | ✘ |
-| getFluidProduct |  |  | FluidStackJS | ✘ |
 | getAnimalProperties |  |  | TFCAnimalProperties | ✘ |
-| getTool |  |  | ItemStack | ✘ |
-| getItemProduct |  |  | ItemStack | ✘ |
-| setFluidProduct | FluidStackJS |  | void | ✘ |
-| setItemProduct | ItemStack |  | void | ✘ |
-| isItemProduct |  |  | boolean | ✘ |
-| getAnimal |  |  | Entity | ✘ |
-| removeGameStage | String |  | void | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | addGameStage | String |  | void | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -51,6 +51,49 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 
 ### Documented members:
+
+- `ItemStack getTool()`
+```
+Returns the 'too' used to get a product, either a bucket or shears
+```
+
+- `void setFluidProduct(FluidStackJS var0)`
+
+  Parameters:
+  - var0: FluidStackJS
+
+```
+Sets the fluid product, attempting to use this on an event originally producing an item will void the product
+```
+
+- `boolean isItemProduct()`
+```
+Returns true if the event's product is an item and not a fluid
+```
+
+- `void setItemProduct(ItemStack var0)`
+
+  Parameters:
+  - var0: ItemStack
+
+```
+Sets the item product, attempting to use this on an event originally producing a fluid will void the product
+```
+
+- `ItemStack getItemProduct()`
+```
+Returns the item product of the event, may be empty if the product is a fluid
+```
+
+- `Entity getAnimal()`
+```
+Returns the animal the product comes from
+```
+
+- `FluidStackJS getFluidProduct()`
+```
+Returns the fluid product of the event, may be empty if the product is an item
+```
 
 - `int getUses()`
 ```
@@ -66,61 +109,9 @@ How much 'wear' the animal will take from the event
 Sets how much 'wear' the animal will take from the event
 ```
 
-- `FluidStackJS getFluidProduct()`
-```
-Returns the fluid product of the event, may be empty if the product is an item
-```
-
 - `TFCAnimalProperties getAnimalProperties()`
 ```
 Returns TFC animal properties of the animal
-```
-
-- `ItemStack getTool()`
-```
-Returns the 'too' used to get a product, either a bucket or shears
-```
-
-- `ItemStack getItemProduct()`
-```
-Returns the item product of the event, may be empty if the product is a fluid
-```
-
-- `void setFluidProduct(FluidStackJS var0)`
-
-  Parameters:
-  - var0: FluidStackJS
-
-```
-Sets the fluid product, attempting to use this on an event originally producing an item will void the product
-```
-
-- `void setItemProduct(ItemStack var0)`
-
-  Parameters:
-  - var0: ItemStack
-
-```
-Sets the item product, attempting to use this on an event originally producing a fluid will void the product
-```
-
-- `boolean isItemProduct()`
-```
-Returns true if the event's product is an item and not a fluid
-```
-
-- `Entity getAnimal()`
-```
-Returns the animal the product comes from
-```
-
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Removes the specified game stage from the player
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -130,6 +121,15 @@ Removes the specified game stage from the player
 
 ```
 Checks if the player has the specified game stage
+```
+
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the specified game stage from the player
 ```
 
 - `void addGameStage(String var0)`

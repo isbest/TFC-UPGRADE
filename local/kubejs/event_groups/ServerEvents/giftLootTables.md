@@ -20,11 +20,11 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getType |  |  | String | ✘ |
-| getDirectory |  |  | String | ✘ |
 | addGift | ResourceLocation, Consumer<LootBuilder> |  | void | ✘ |
+| getDirectory |  |  | String | ✘ |
 | removeAll |  |  | void | ✘ |
-| modify | ResourceLocation, Consumer<LootBuilder> |  | void | ✘ |
 | addJson | ResourceLocation, JsonObject |  | void | ✘ |
+| modify | ResourceLocation, Consumer<LootBuilder> |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

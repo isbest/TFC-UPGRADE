@@ -27,10 +27,10 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | add | Ingredient, Object |  | void | ✘ |
 | addAdvanced | Ingredient, StaticTooltipHandlerFromJS |  | void | ✘ |
-| isCtrl |  |  | boolean | ✘ |
-| addAdvancedToAll | StaticTooltipHandlerFromJS |  | void | ✘ |
-| isAlt |  |  | boolean | ✘ |
 | isShift |  |  | boolean | ✘ |
+| isAlt |  |  | boolean | ✘ |
+| addAdvancedToAll | StaticTooltipHandlerFromJS |  | void | ✘ |
+| isCtrl |  |  | boolean | ✘ |
 | addToAll | Object |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
@@ -62,9 +62,14 @@ Adds text to all items matching the ingredient.
 Adds a dynamic tooltip handler to all items matching the ingredient.
 ```
 
-- `boolean isCtrl()`
+- `boolean isShift()`
 ```
-Is control key pressed.
+Is shift key pressed.
+```
+
+- `boolean isAlt()`
+```
+Is alt key pressed.
 ```
 
 - `void addAdvancedToAll(StaticTooltipHandlerFromJS var0)`
@@ -76,14 +81,9 @@ Is control key pressed.
 Adds a dynamic tooltip handler to all items.
 ```
 
-- `boolean isAlt()`
+- `boolean isCtrl()`
 ```
-Is alt key pressed.
-```
-
-- `boolean isShift()`
-```
-Is shift key pressed.
+Is control key pressed.
 ```
 
 - `void addToAll(Object var0)`

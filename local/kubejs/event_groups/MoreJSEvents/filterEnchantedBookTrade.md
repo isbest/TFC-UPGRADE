@@ -22,10 +22,10 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | add | Enchantment[] |  | void | ✘ |
 | remove | Enchantment[] |  | void | ✘ |
 | getRandom |  |  | RandomSource | ✘ |
-| getEntity |  |  | AbstractVillager | ✘ |
 | getEnchantments |  |  | List<Enchantment> | ✘ |
-| isVillager |  |  | boolean | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
 | printEnchantments |  |  | void | ✘ |
+| isVillager |  |  | boolean | ✘ |
 | isWanderer |  |  | boolean | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |

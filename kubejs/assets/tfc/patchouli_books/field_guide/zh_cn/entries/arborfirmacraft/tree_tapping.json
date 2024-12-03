@@ -1,0 +1,30 @@
+{
+	"name": "抽树液",
+	"category": "tfc:arborfirmacraft",
+	"icon": "afc:tree_tap",
+	"pages": [
+	{
+		"type": "patchouli:text",
+		"text": "某些类型的树可以用来获取有用的液体。默认情况下，枫树和桦树可以用来获取含糖树液，橡皮树和橡胶树可以用来获取胶乳。树液可以浓缩成糖浆并用作甜味剂，而胶乳可以加工成橡胶。"
+	},
+	{
+		"type": "patchouli:image",
+		"title": "Tapping a Maple Tree",
+		"images": [
+        "afc:textures/gui/book/maple_tapping.png"
+      ],
+		"border": true
+	},
+	{
+		"type": "patchouli:text",
+		"text": "抽一棵树的树液需要三要素：树本身、一个锻铁锻制的木龙头，将其放在至少三格高的树干上。还有一个桶，它必须直接放在木龙头下面，面朝上。如果三要素机器，你的桶会立即开始被树液填充。"
+	},
+	{
+		"type": "patchouli:text",
+		"text": "并不是所有的树都能一直生产树液。枫树和桦树在春天，且温度在-4°C到6°C之间，或者说在雪差不多开始融化的时候产生树液。橡胶树只有在温度高于22°C时才会产生乳胶。橡皮树在12°C或以上的温度下生产乳胶，但生产速度比橡胶树慢。纬度、海拔、一年中的时间和一天中的时间都会影响温度，从而影响树液的流动。"
+	}
+	
+	],
+	"read_by_default": true,
+	"sortnum": 1
+}

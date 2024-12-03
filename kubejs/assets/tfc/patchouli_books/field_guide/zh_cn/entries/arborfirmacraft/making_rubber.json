@@ -1,0 +1,14 @@
+{
+	"name": "制造橡胶",
+	"category": "tfc:arborfirmacraft",
+	"icon": "afc:rubber_bar",
+	"pages": [
+	{
+		"type": "patchouli:text",
+		"text": "将胶乳与硫磺粉一起放在陶锅里煮，就能制成固体橡胶。希望它在某些场合有用……"
+	}
+	
+	],
+	"read_by_default": true,
+	"sortnum": 3
+}

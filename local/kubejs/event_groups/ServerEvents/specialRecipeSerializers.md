@@ -22,11 +22,11 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | reset |  |  | void | ✘ |
-| addSpecialFlag | ResourceLocation |  | void | ✘ |
+| isSpecial | Recipe<?> |  | boolean | ✘ |
+| addSpecialMod | String |  | void | ✘ |
 | ignoreSpecialMod | String |  | void | ✘ |
 | ignoreSpecialFlag | ResourceLocation |  | void | ✘ |
-| addSpecialMod | String |  | void | ✘ |
-| isSpecial | Recipe<?> |  | boolean | ✘ |
+| addSpecialFlag | ResourceLocation |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

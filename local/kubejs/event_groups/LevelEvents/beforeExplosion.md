@@ -28,10 +28,10 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getPosition |  |  | Vec3 | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
 | getLevel |  |  | Level | ✘ |
-| getX |  |  | double | ✘ |
 | getY |  |  | double | ✘ |
-| getZ |  |  | double | ✘ |
+| getX |  |  | double | ✘ |
 | getExploder |  |  | LivingEntity | ✘ |
+| getZ |  |  | double | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

@@ -21,14 +21,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getType |  |  | String | ✘ |
 | build | BlockStatePredicate, Consumer<LootBuilder> |  | void | ✘ |
-| getDirectory |  |  | String | ✘ |
 | addBlock | BlockStatePredicate, Consumer<LootBuilder> |  | void | ✘ |
-| modifyBlock | BlockStatePredicate, Consumer<LootBuilder> |  | void | ✘ |
-| addSimpleBlock | BlockStatePredicate, ItemStack |  | void | ✘ |
 | addSimpleBlock | BlockStatePredicate |  | void | ✘ |
+| addSimpleBlock | BlockStatePredicate, ItemStack |  | void | ✘ |
+| getDirectory |  |  | String | ✘ |
+| modifyBlock | BlockStatePredicate, Consumer<LootBuilder> |  | void | ✘ |
 | removeAll |  |  | void | ✘ |
-| modify | ResourceLocation, Consumer<LootBuilder> |  | void | ✘ |
 | addJson | ResourceLocation, JsonObject |  | void | ✘ |
+| modify | ResourceLocation, Consumer<LootBuilder> |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

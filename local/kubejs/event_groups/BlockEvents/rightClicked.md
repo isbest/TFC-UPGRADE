@@ -25,12 +25,12 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getBlock |  |  | BlockContainerJS | ✘ |
 | getItem |  |  | ItemStack | ✘ |
-| getHand |  |  | InteractionHand | ✘ |
-| getEntity |  |  | LivingEntity | ✘ |
 | getFacing |  |  | Direction | ✘ |
-| removeGameStage | String |  | void | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
+| getHand |  |  | InteractionHand | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | addGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
@@ -54,9 +54,9 @@ The block that was right clicked.
 The position of the block that was right clicked.
 ```
 
-- `InteractionHand getHand()`
+- `Direction getFacing()`
 ```
-The hand that was used to right click the block.
+The face of the block being right clicked.
 ```
 
 - `LivingEntity getEntity()`
@@ -64,18 +64,9 @@ The hand that was used to right click the block.
 The player that right clicked the block.
 ```
 
-- `Direction getFacing()`
+- `InteractionHand getHand()`
 ```
-The face of the block being right clicked.
-```
-
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Removes the specified game stage from the player
+The hand that was used to right click the block.
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -85,6 +76,15 @@ Removes the specified game stage from the player
 
 ```
 Checks if the player has the specified game stage
+```
+
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the specified game stage from the player
 ```
 
 - `void addGameStage(String var0)`

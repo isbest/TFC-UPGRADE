@@ -23,11 +23,11 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
+| getEntity |  |  | Player | ✘ |
 | getAdvancement |  |  | AdvancementJS | ✘ |
-| getEntity |  |  | Entity | ✘ |
-| removeGameStage | String |  | void | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | addGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
@@ -41,23 +41,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `AdvancementJS getAdvancement()`
-```
-Returns the advancement that was obtained.
-```
-
-- `Entity getEntity()`
+- `Player getEntity()`
 ```
 Returns the player that got the advancement.
 ```
 
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
+- `AdvancementJS getAdvancement()`
 ```
-Removes the specified game stage from the player
+Returns the advancement that was obtained.
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -67,6 +58,15 @@ Removes the specified game stage from the player
 
 ```
 Checks if the player has the specified game stage
+```
+
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the specified game stage from the player
 ```
 
 - `void addGameStage(String var0)`

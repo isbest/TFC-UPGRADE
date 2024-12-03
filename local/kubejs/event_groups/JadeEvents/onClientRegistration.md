@@ -20,60 +20,60 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | block | ResourceLocation, Class<? extends Block> |  | BlockComponentProviderBuilder | ✘ |
-| addRayTraceCallback | JadeRayTraceCallback |  | void | ✘ |
-| addRayTraceCallback | int, JadeRayTraceCallback |  | void | ✘ |
-| addTooltipCollectedCallback | int, JadeTooltipCollectedCallback |  | void | ✘ |
-| addTooltipCollectedCallback | JadeTooltipCollectedCallback |  | void | ✘ |
-| addItemModNameCallback | int, JadeItemModNameCallback |  | void | ✘ |
-| addItemModNameCallback | JadeItemModNameCallback |  | void | ✘ |
-| registerItemStorageClient | IClientExtensionProvider<ItemStack, ItemView> |  | void | ✘ |
-| addRenderBackgroundCallback | int, JadeRenderBackgroundCallback |  | void | ✘ |
-| addRenderBackgroundCallback | JadeRenderBackgroundCallback |  | void | ✘ |
-| markAsServerFeature | ResourceLocation |  | void | ✘ |
-| registerProgressClient | IClientExtensionProvider<CompoundTag, ProgressView> |  | void | ✘ |
-| markAsClientFeature | ResourceLocation |  | void | ✘ |
-| registerEnergyStorageClient | IClientExtensionProvider<CompoundTag, EnergyView> |  | void | ✘ |
-| registerFluidStorageClient | IClientExtensionProvider<CompoundTag, FluidView> |  | void | ✘ |
-| progress | ResourceLocation |  | ClientExtensionProviderBuilder<CompoundTag, ProgressView> | ✘ |
-| isShowDetailsPressed |  |  | boolean | ✘ |
+| isClientFeature | ResourceLocation |  | boolean | ✘ |
 | entity | ResourceLocation, Class<? extends Entity> |  | EntityComponentProviderBuilder | ✘ |
-| addBeforeRenderCallback | int, JadeBeforeRenderCallback |  | void | ✘ |
-| addBeforeRenderCallback | JadeBeforeRenderCallback |  | void | ✘ |
-| registerBlockComponent | IBlockComponentProvider, Class<? extends Block> |  | void | ✘ |
-| registerEntityComponent | IEntityComponentProvider, Class<? extends Entity> |  | void | ✘ |
-| addAfterRenderCallback | int, JadeAfterRenderCallback |  | void | ✘ |
-| addAfterRenderCallback | JadeAfterRenderCallback |  | void | ✘ |
-| addConfig | ResourceLocation, String, Predicate<String> |  | void | ✘ |
-| addConfig | ResourceLocation, Enum<?> |  | void | ✘ |
-| addConfig | ResourceLocation, float, float, float, boolean |  | void | ✘ |
+| progress | ResourceLocation |  | ClientExtensionProviderBuilder<CompoundTag, ProgressView> | ✘ |
 | addConfig | ResourceLocation, boolean |  | void | ✘ |
+| addConfig | ResourceLocation, Enum<?> |  | void | ✘ |
+| addConfig | ResourceLocation, String, Predicate<String> |  | void | ✘ |
 | addConfig | ResourceLocation, int, int, int, boolean |  | void | ✘ |
-| createPluginConfigScreen | Screen, String |  | Screen | ✘ |
-| registerCustomEnchantPower | Block, CustomEnchantPower |  | void | ✘ |
-| usePickedResult | Block |  | void | ✘ |
-| usePickedResult | EntityType<?> |  | void | ✘ |
-| addConfigListener | ResourceLocation, Consumer<ResourceLocation> |  | void | ✘ |
-| entityAccessor |  |  | Builder | ✘ |
+| addConfig | ResourceLocation, float, float, float, boolean |  | void | ✘ |
 | hideTarget | EntityType<?> |  | void | ✘ |
 | hideTarget | Block |  | void | ✘ |
-| registerBlockIcon | IBlockComponentProvider, Class<? extends Block> |  | void | ✘ |
-| registerEntityIcon | IEntityComponentProvider, Class<? extends Entity> |  | void | ✘ |
-| blockAccessor |  |  | Builder | ✘ |
-| setServerData | CompoundTag |  | void | ✘ |
-| getServerData |  |  | CompoundTag | ✘ |
-| maybeLowVisionUser |  |  | boolean | ✘ |
+| shouldHide | BlockState |  | boolean | ✘ |
+| shouldHide | Entity |  | boolean | ✘ |
+| entityAccessor |  |  | Builder | ✘ |
 | shouldPick | Entity |  | boolean | ✘ |
 | shouldPick | BlockState |  | boolean | ✘ |
-| shouldHide | Entity |  | boolean | ✘ |
-| shouldHide | BlockState |  | boolean | ✘ |
+| registerBlockIcon | IBlockComponentProvider, Class<? extends Block> |  | void | ✘ |
+| blockAccessor |  |  | Builder | ✘ |
+| registerEntityIcon | IEntityComponentProvider, Class<? extends Entity> |  | void | ✘ |
+| usePickedResult | EntityType<?> |  | void | ✘ |
+| usePickedResult | Block |  | void | ✘ |
+| addConfigListener | ResourceLocation, Consumer<ResourceLocation> |  | void | ✘ |
+| setServerData | CompoundTag |  | void | ✘ |
+| getServerData |  |  | CompoundTag | ✘ |
+| getAccessorHandler | Class<? extends Accessor<?>> |  | Accessor.ClientHandler<Accessor<?>> | ✘ |
 | getBlockCamouflage | LevelAccessor, BlockPos |  | ItemStack | ✘ |
 | isServerConnected |  |  | boolean | ✘ |
-| getAccessorHandler | Class<? extends Accessor<?>> |  | Accessor.ClientHandler<Accessor<?>> | ✘ |
-| isClientFeature | ResourceLocation |  | boolean | ✘ |
+| maybeLowVisionUser |  |  | boolean | ✘ |
 | energyStorage | ResourceLocation |  | ClientExtensionProviderBuilder<CompoundTag, EnergyView> | ✘ |
 | itemStorage | ResourceLocation |  | ClientExtensionProviderBuilder<ItemStack, ItemView> | ✘ |
 | fluidStorage | ResourceLocation |  | ClientExtensionProviderBuilder<CompoundTag, FluidView> | ✘ |
+| registerBlockComponent | IBlockComponentProvider, Class<? extends Block> |  | void | ✘ |
+| addItemModNameCallback | JadeItemModNameCallback |  | void | ✘ |
+| addItemModNameCallback | int, JadeItemModNameCallback |  | void | ✘ |
+| registerEntityComponent | IEntityComponentProvider, Class<? extends Entity> |  | void | ✘ |
+| addRenderBackgroundCallback | int, JadeRenderBackgroundCallback |  | void | ✘ |
+| addRenderBackgroundCallback | JadeRenderBackgroundCallback |  | void | ✘ |
+| addBeforeRenderCallback | int, JadeBeforeRenderCallback |  | void | ✘ |
+| addBeforeRenderCallback | JadeBeforeRenderCallback |  | void | ✘ |
+| addRayTraceCallback | JadeRayTraceCallback |  | void | ✘ |
+| addRayTraceCallback | int, JadeRayTraceCallback |  | void | ✘ |
+| registerItemStorageClient | IClientExtensionProvider<ItemStack, ItemView> |  | void | ✘ |
+| registerFluidStorageClient | IClientExtensionProvider<CompoundTag, FluidView> |  | void | ✘ |
+| registerProgressClient | IClientExtensionProvider<CompoundTag, ProgressView> |  | void | ✘ |
+| isShowDetailsPressed |  |  | boolean | ✘ |
+| markAsClientFeature | ResourceLocation |  | void | ✘ |
+| markAsServerFeature | ResourceLocation |  | void | ✘ |
 | registerAccessorHandler | Class<T extends Accessor<?>>, Accessor.ClientHandler<T extends Accessor<?>> |  | void | ✘ |
+| registerEnergyStorageClient | IClientExtensionProvider<CompoundTag, EnergyView> |  | void | ✘ |
+| addTooltipCollectedCallback | JadeTooltipCollectedCallback |  | void | ✘ |
+| addTooltipCollectedCallback | int, JadeTooltipCollectedCallback |  | void | ✘ |
+| addAfterRenderCallback | int, JadeAfterRenderCallback |  | void | ✘ |
+| addAfterRenderCallback | JadeAfterRenderCallback |  | void | ✘ |
+| registerCustomEnchantPower | Block, CustomEnchantPower |  | void | ✘ |
+| createPluginConfigScreen | Screen, String |  | Screen | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

@@ -20,13 +20,13 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getType |  |  | TeleportType | ✘ |
+| getY |  |  | double | ✘ |
+| getX |  |  | double | ✘ |
+| getEntity |  |  | Entity | ✘ |
+| getZ |  |  | double | ✘ |
 | setZ | double |  | void | ✘ |
 | setY | double |  | void | ✘ |
 | setX | double |  | void | ✘ |
-| getX |  |  | double | ✘ |
-| getY |  |  | double | ✘ |
-| getZ |  |  | double | ✘ |
-| getEntity |  |  | Entity | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |

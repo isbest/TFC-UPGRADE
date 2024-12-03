@@ -19,23 +19,23 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getIntersectionBoxes |  |  | Collection<BoundingBox> | ✘ |
-| getIntersectionPieces |  |  | Collection<StructurePiece> | ✘ |
-| getChunkBoundingBox |  |  | BoundingBox | ✘ |
-| getStructureBoundingBox |  |  | BoundingBox | ✘ |
 | getId |  |  | ResourceLocation | ✘ |
 | getType |  |  | ResourceLocation | ✘ |
-| getLevel |  |  | ServerLevel | ✘ |
+| getLevel |  |  | Level | ✘ |
+| getStructureManager |  |  | StructureManager | ✘ |
 | getStructure |  |  | Structure | ✘ |
 | getGenStep |  |  | String | ✘ |
 | getChunkGenerator |  |  | ChunkGenerator | ✘ |
-| getIntersectionMap |  |  | Map<StructurePiece, BoundingBox> | ✘ |
-| getWorldGenLevel |  |  | WorldGenLevel | ✘ |
-| getPieceType | StructurePieceType |  | ResourceLocation | ✘ |
 | getPiecesContainer |  |  | PiecesContainer | ✘ |
+| getWorldGenLevel |  |  | WorldGenLevel | ✘ |
+| getIntersectionMap |  |  | Map<StructurePiece, BoundingBox> | ✘ |
+| getPieceType | StructurePieceType |  | ResourceLocation | ✘ |
 | getRandomSource |  |  | RandomSource | ✘ |
 | getChunkPos |  |  | ChunkPos | ✘ |
-| getStructureManager |  |  | StructureManager | ✘ |
+| getIntersectionPieces |  |  | Collection<StructurePiece> | ✘ |
+| getChunkBoundingBox |  |  | BoundingBox | ✘ |
+| getStructureBoundingBox |  |  | BoundingBox | ✘ |
+| getIntersectionBoxes |  |  | Collection<BoundingBox> | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

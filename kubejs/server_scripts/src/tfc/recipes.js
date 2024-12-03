@@ -33,7 +33,18 @@ ServerEvents.recipes(event => {
     firmalife.drying('tfc:food/dried_kelp', 'tfc:plant/winged_kelp').id('firmalife:dried_kelp/winged_kelp')
     firmalife.drying('tfc:food/dried_kelp', 'tfc:plant/giant_kelp_flower').id('firmalife:dried_kelp/giant_kelp_flower')
 
-    event.replaceInput({ input: 'minecraft:dried_kelp' }, 'minecraft:dried_kelp', 'tfc:food/dried_kelp')
+    // 将机械动力所有输入海带的配方替换为输入橡胶棒
+    event.replaceInput(
+        { input: 'minecraft:dried_kelp', mod: "create" },
+        'minecraft:dried_kelp',
+        'afc:rubber_bar'
+    )
+    // 将饥饿动力所有输入海带块也替换为橡胶棒
+    event.replaceInput(
+        { input: 'minecraft:dried_kelp_block', mod: "create" },
+        'minecraft:dried_kelp_block',
+        'afc:rubber_bar'
+    )
 
     // 海带块
     // event.shaped('minecraft:dried_kelp_block', ['AAA', 'AAA', 'AAA'], { "A": 'tfc:food/dried_kelp' }).id("minecraft:dried_kelp_block")

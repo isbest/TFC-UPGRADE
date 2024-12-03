@@ -23,14 +23,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
+| getOrCreateCustomOverriddenRecipeType | ResourceLocation, RecipeType<T> |  | RecipeType<T> | ✔ |
 | removeCustomRecipeType | ResourceLocation |  | void | ✔ |
 | clearCustomRecipeTypes |  |  | void | ✔ |
+| clearOverriddenRecipeTypes |  |  | void | ✔ |
 | removeOverriddenRecipeType | ResourceLocation |  | void | ✔ |
 | getOverriddenRecipeType | ResourceLocation |  | RecipeType<?> | ✔ |
 | getOrCreateCustomRecipeType | ResourceLocation |  | RecipeType<CustomJSRecipe> | ✔ |
-| clearOverriddenRecipeTypes |  |  | void | ✔ |
 | getCustomRecipeType | ResourceLocation |  | RecipeType<CustomJSRecipe> | ✔ |
-| getOrCreateCustomOverriddenRecipeType | ResourceLocation, RecipeType<T> |  | RecipeType<T> | ✔ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

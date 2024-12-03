@@ -27,11 +27,11 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getTarget |  |  | RayTraceResultJS | ✘ |
 | getItem |  |  | ItemStack | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
 | getHand |  |  | InteractionHand | ✘ |
-| getEntity |  |  | Player | ✘ |
-| removeGameStage | String |  | void | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | addGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
@@ -55,23 +55,14 @@ The ray trace result of the click.
 The item that was clicked with.
 ```
 
-- `InteractionHand getHand()`
-```
-The hand that the item was clicked with.
-```
-
-- `Player getEntity()`
+- `LivingEntity getEntity()`
 ```
 The player that clicked with the item.
 ```
 
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
+- `InteractionHand getHand()`
 ```
-Removes the specified game stage from the player
+The hand that the item was clicked with.
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -81,6 +72,15 @@ Removes the specified game stage from the player
 
 ```
 Checks if the player has the specified game stage
+```
+
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the specified game stage from the player
 ```
 
 - `void addGameStage(String var0)`
