@@ -33,13 +33,13 @@ ServerEvents.recipes(event => {
         // 蓝色
         { source: 'tfc:volcanic_glass_batch', output: 'minecraft:blue_stained_glass', dye: [] },
         // 紫色
-        { source: '#tfc:glass_batches', output: 'minecraft:purple_stained_glass', dye: ['tfc:powder/purple_stained_glass', 'tfc:powder/limonite'] },
-        { source: '#tfc:glass_batches', output: 'minecraft:purple_stained_glass', dye: ['tfc:powder/purple_stained_glass', 'tfc:powder/malachite'] },
-        { source: '#tfc:glass_batches', output: 'minecraft:purple_stained_glass', dye: ['tfc:powder/purple_stained_glass', 'tfc:powder/tetrahedrite'] },
-        { source: '#tfc:glass_batches', output: 'minecraft:purple_stained_glass', dye: ['tfc:powder/magnetite', 'tfc:powder/limonite'] },
+        { source: '#tfc:glass_batches', output: 'minecraft:purple_stained_glass', dye: ['tfc:powder/limonite', 'tfc:powder/native_copper'] },
+        { source: '#tfc:glass_batches', output: 'minecraft:purple_stained_glass', dye: ['tfc:powder/limonite', 'tfc:powder/malachite'] },
+        { source: '#tfc:glass_batches', output: 'minecraft:purple_stained_glass', dye: ['tfc:powder/limonite', 'tfc:powder/tetrahedrite'] },
+        { source: '#tfc:glass_batches', output: 'minecraft:purple_stained_glass', dye: ['tfc:powder/magnetite', 'tfc:powder/native_copper'] },
         { source: '#tfc:glass_batches', output: 'minecraft:purple_stained_glass', dye: ['tfc:powder/magnetite', 'tfc:powder/malachite'] },
         { source: '#tfc:glass_batches', output: 'minecraft:purple_stained_glass', dye: ['tfc:powder/magnetite', 'tfc:powder/tetrahedrite'] },
-        { source: '#tfc:glass_batches', output: 'minecraft:purple_stained_glass', dye: ['tfc:powder/hematite', 'tfc:powder/limonite'] },
+        { source: '#tfc:glass_batches', output: 'minecraft:purple_stained_glass', dye: ['tfc:powder/hematite', 'tfc:powder/native_copper'] },
         { source: '#tfc:glass_batches', output: 'minecraft:purple_stained_glass', dye: ['tfc:powder/hematite', 'tfc:powder/malachite'] },
         { source: '#tfc:glass_batches', output: 'minecraft:purple_stained_glass', dye: ['tfc:powder/hematite', 'tfc:powder/tetrahedrite'] },
         // 品红
