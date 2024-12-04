@@ -43,7 +43,7 @@
 			}]
 			title: "捡石子"
 			x: -3.5d
-			y: -5.0d
+			y: -6.0d
 		}
 		{
 			description: ["你需要捡起一些木棍作为工具的手柄"]
@@ -62,7 +62,7 @@
 			}]
 			title: "捡木棍"
 			x: -3.5d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -574,7 +574,7 @@
 				"6DC2A54A3C405F6E"
 				"2C0A1CCEC5F21400"
 			]
-			description: ["将矿粉合成为矿团，和团块，可以节省空间，并且提供更多合金配比的可能"]
+			description: ["将矿粉合成为团矿，和团块，可以节省空间，并且提供更多合金配比的可能"]
 			id: "0800E1C0DCB109CA"
 			rewards: [{
 				count: 20
@@ -647,7 +647,7 @@
 				"0800E1C0DCB109CA"
 				"44589D2D001BD03F"
 			]
-			description: ["挖矿时间到，久等了！使用采掘锤，可以更有效率的进行挖掘工作，但是请注意方块的支撑情况！"]
+			description: ["挖矿时间到，久等了！"]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -662,44 +662,24 @@
 				}
 			}
 			id: "27D72966CFCE7C1A"
-			tasks: [
-				{
-					id: "6B11C99EFCDA0622"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"tfc:item_heat": {
-								heat: 0.0f
-								ticks: 0L
-							}
-						}
-						id: "tfc:metal/pickaxe/copper"
-						tag: {
-							Damage: 0
+			tasks: [{
+				id: "6B11C99EFCDA0622"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
 						}
 					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "4124A699C2827024"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"tfc:item_heat": {
-								heat: 0.0f
-								ticks: 0L
-							}
-						}
-						id: "tfc_hammer_time:metal/sledgehammer/copper"
-						tag: {
-							Damage: 0
-						}
+					id: "tfc:metal/pickaxe/copper"
+					tag: {
+						Damage: 0
 					}
-					optional_task: true
-					type: "item"
 				}
-			]
+				optional_task: true
+				type: "item"
+			}]
 			title: "挖矿时间到"
 			x: 0.5d
 			y: 1.5d
@@ -1010,7 +990,7 @@
 				type: "checkmark"
 			}]
 			title: "新手奖励"
-			x: -5.5d
+			x: -4.5d
 			y: -3.0d
 		}
 	]

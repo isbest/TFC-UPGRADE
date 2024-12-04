@@ -1647,6 +1647,11 @@ const MISC = [
     // 海带
     'minecraft:dried_kelp',
     'minecraft:dried_kelp_block',
+    // 锤子
+    "tfc_hammer_time:ceramic/unfired_excavator_head_mold",
+    "tfc_hammer_time:ceramic/unfired_sledgehammer_head_mold",
+    "tfc_hammer_time:ceramic/sledgehammer_head_mold",
+    "tfc_hammer_time:ceramic/excavator_head_mold",
 ]
 
 ServerEvents.tags('item', event => {
