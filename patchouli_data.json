@@ -36,7 +36,11 @@
         "tfc:firmalife/more_fertilizer",
         "tfc:arborfirmacraft/tree_tapping",
         "tfc:arborfirmacraft/making_syrups",
-        "tfc:arborfirmacraft/making_rubber"
+        "tfc:arborfirmacraft/making_rubber",
+        "tfc:firmalife/food_shelves",
+        "tfc:firmalife/cheese",
+        "tfc:firmalife/oven_appliances",
+        "tfc:firmalife/ovens"
       ],
       "bookmarks": [
         {
