@@ -9,5 +9,6 @@
     "kubejs.tooltips.tfc_knapsacks.backpack": "相比于精妙背包是比较鸡肋啦~",
     "kubejs.tooltips.tfcambiental.house_tester": "在室内您可以不受温度影响",
     "kubejs.tooltips.tfc_hammer_time.excavator": "挖掘3x3范围内的泥土",
-    "kubejs.tooltips.tfc_hammer_time.sledgehammer": "挖掘3想范围内的石头"
+    "kubejs.tooltips.tfc_hammer_time.sledgehammer": "挖掘3想范围内的石头",
+    "kubejs.tooltips.create.empty_blaze_burner": "烈焰人燃烧室被禁用，因此空烈焰人燃烧室只有制作4倍水洗的能力"
 }

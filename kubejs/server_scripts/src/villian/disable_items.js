@@ -1262,7 +1262,7 @@ const MISC = [
     // "minecraft:crying_obsidian",
     "create:creative_blaze_cake",
     "create:blaze_burner",
-    "create:empty_blaze_burner",
+    // "create:empty_blaze_burner",
     "immersiveengineering:armor_steel_helmet",
     "immersiveengineering:survey_tools",
     "immersiveengineering:raw_silver",
@@ -1281,7 +1281,7 @@ const MISC = [
     "immersiveengineering:fusilier_spawn_egg",
     "create:blaze_cake",
     "create:creative_blaze_cake",
-    "create:empty_blaze_burner",
+    // "create:empty_blaze_burner",
     "create:blaze_burner",
     "functionalstorage:warped_4",
     "functionalstorage:mangrove_4",
@@ -1652,6 +1652,11 @@ const MISC = [
     "tfc_hammer_time:ceramic/unfired_sledgehammer_head_mold",
     "tfc_hammer_time:ceramic/sledgehammer_head_mold",
     "tfc_hammer_time:ceramic/excavator_head_mold",
+    // 圆石
+    "minecraft:cobblestone",
+    "minecraft:cobblestone_stairs",
+    "minecraft:cobblestone_slab",
+    "minecraft:cobblestone_wall",
 ]
 
 ServerEvents.tags('item', event => {

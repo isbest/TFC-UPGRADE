@@ -42,4 +42,26 @@ ServerEvents.recipes(event => {
         ).superheated()
     })
 
+    // 岩石粉水洗 产量提高
+    event.recipes.create.splashing(
+        [
+            Item.of('tfcorewashing:dirty_pile_copper').withChance(0.5),
+            Item.of('tfcorewashing:dirty_pile_sphalerite').withChance(0.5),
+            Item.of('tfcorewashing:dirty_pile_gold').withChance(0.25),
+            Item.of('tfcorewashing:dirty_pile_silver').withChance(0.25),
+            Item.of('tfcorewashing:pile_black_sand').withChance(0.25),
+            Item.of('tfcorewashing:dirty_pile_cassiterite').withChance(0.25), // 锡
+            Item.of('minecraft:flint').withChance(0.05),
+        ],
+        'tfcorewashing:rock_powder'
+    )
+        .processingTime(400)
+        .id('tfcorewashing:rock_powder/splashing')
+
+    // 空烈焰人燃烧室
+    event.replaceInput(
+        { id: "create:crafting/kinetics/empty_blaze_burner" },
+        "minecraft:netherrack",
+        "#forge:glass"
+    )
 })

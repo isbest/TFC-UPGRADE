@@ -71,6 +71,14 @@ ItemEvents.tooltip(event => {
         )
     })
 
+    event.addAdvanced('create:empty_blaze_burner', (item, advanced, text) => {
+        text.add(
+            1,
+            Text.of({ translate: "kubejs.tooltips.create.empty_blaze_burner" })
+                .blue()
+        )
+    })
+
     // 采掘铲
     const excavator = [
         "tfc_hammer_time:metal/excavator/bismuth_bronze",
