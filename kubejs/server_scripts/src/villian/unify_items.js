@@ -46,16 +46,6 @@ ServerEvents.recipes(event => {
     event.replaceInput({ input: 'minecraft:gold_block' }, 'minecraft:gold_block', 'tfc:metal/block/gold')
     // 绿宝石兼容
     event.replaceInput({ input: 'minecraft:emerald' }, 'minecraft:emerald', 'tfc:gem/emerald')
-    // 石头兼容
-    // event.replaceInput({ input: "#forge:stone" }, "#forge:stone", '#tfc:rock/raw')
-    // event.replaceInput(
-    //     [
-    //         { id: 'create:crafting/materials/andesite_alloy_from_zinc' },
-    //         { id: 'create:crafting/materials/andesite_alloy' }
-    //     ],
-    //     '#tfc:rock/raw',
-    //     'minecraft:andesite'
-    // )
     // 铜块兼容
     event.replaceInput({ input: '#forge:storage_blocks/copper' }, '#forge:storage_blocks/copper', 'tfc:metal/block/copper')
     // 铜锭统一
@@ -69,9 +59,10 @@ ServerEvents.recipes(event => {
     // 石英
     event.replaceInput({ input: 'minecraft:quartz' }, 'minecraft:quartz', '#forge:gems/quartz')
     // 增加凿子+石英块出石英配方
-    event.shapeless(Item.of('create:iron_sheet', 2), [
+    event.shapeless(Item.of('tfc_ie_addon:mineral/quartz_shard', 4), [
         '#tfc:chisels',
         'tfc_ie_addon:mineral/quartz_block'
     ]).damageIngredient({ item: '#tfc:chisels' }, 1)
+    .id("kubejs:quartz_shard_from_quartz_block")
 
 })
