@@ -276,12 +276,12 @@ ServerEvents.recipes(event => {
         'B': '#tfc:rock/raw'
     }).id('minecraft:stonecutter')
 
-    // 移除原版除了圆石之外的切割配方,圆石可以通过粒子刷石机获取,石头同理
-    event.remove({
-        type: 'minecraft:stonecutting',
-        mod: 'minecraft',
-        not: [{ input: 'minecraft:cobblestone' }, { input: 'minecraft:stone' }]
-    })
+    // 粒子刷石机已被禁用
+    // event.remove({
+    //     type: 'minecraft:stonecutting',
+    //     mod: 'minecraft',
+    //     not: [{ input: 'minecraft:cobblestone' }, { input: 'minecraft:stone' }]
+    // })
 
     // 蓝图大炮兼容
     event.replaceInput(

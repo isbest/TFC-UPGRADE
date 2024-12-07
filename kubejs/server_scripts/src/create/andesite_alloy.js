@@ -2,7 +2,8 @@
 const DISABLE_ANDESITE_ALLOY_RECIPES = [
     'create:splashing/gravel', // 水洗沙砾
     'minecraft:diorite', // 闪长岩
-    'create:diorite_from_stone_types_diorite_stonecutting'
+    'create:diorite_from_stone_types_diorite_stonecutting',
+    'create:milling/cobblestone',
 ]
 
 ServerEvents.tags('item', event => {
@@ -63,5 +64,12 @@ ServerEvents.recipes(event => {
         { id: "create:crafting/kinetics/empty_blaze_burner" },
         "minecraft:netherrack",
         "#forge:glass"
+    )
+
+    // 接触式红石信号发生器
+    event.replaceInput(
+        {id: 'create:crafting/logistics/redstone_contact'},
+        'minecraft:cobblestone',
+        '#tfc:rock/raw'
     )
 })
